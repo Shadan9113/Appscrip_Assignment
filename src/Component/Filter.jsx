@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./Filter.css";
 
 function Filter({
@@ -12,15 +11,7 @@ function Filter({
     onFilterChange(event.target.value);
   };
 
-  const handleShowFilter = () => {
-    if (showFilter) {
-      setShowFilter(false);
-    } else {
-      setShowFilter(true);
-    }
-  };
-
-  // setShowFilter((flag) => !flag)
+ 
 
   return (
     <div className="filter-container">
