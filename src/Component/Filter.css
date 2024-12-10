@@ -1,0 +1,21 @@
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-item {
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+#filter-select {
+  padding: 5px 10px;
+  font-size: 16px;
+}

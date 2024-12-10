@@ -1,0 +1,97 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.footer-container{
+    background: #000;
+    height: 560px;
+    color: white;
+}
+.footer-main{
+    display: flex;
+}
+.footer-one{
+    width: 50%;
+ 
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 30px;
+    
+}
+.footer-two{
+    width: 50%;
+  
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 30px;
+   
+}
+.footer-one > input{
+    padding: 8px 60px;
+    margin-top: 20px;
+    
+}
+button{
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+.footer-main-two{
+    display: flex;
+}
+.footer-third{
+    
+    width: 33.3%;
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 10px;
+  
+}
+.footer-fourth{
+  
+    width: 33.3%;
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+.footer-fifth{
+  
+    width: 33.3%;
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+.footer-third-links{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.footer-third-links > span {
+    cursor: pointer;
+}
+.footer-fourth-links{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.footer-fourth-links > span {
+    cursor: pointer;
+}
+.social-media-logo{
+    
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.payment-logo{
+   
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
